@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+
+    <title>Worm Form - NFT</title>
+    <link rel="icon" href="images/logo_black.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Worm Form - NFT" name="description" />
+    <meta content="NFT Collection : Worms" name="keywords" />
+    <meta content="" name="author" />
+
+    <!-- MY FILES  -->
+
+    <link rel="stylesheet" href="/build/main.css">
+    <script src="/build/main.js"></script>
+    <script src="js/forindex.js"></script>
+    <!--  -->
+
+    <!-- CSS Files
+    ================================================== -->
+   <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/de-retro.css" rel="stylesheet" type="text/css" />
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-05.css" rel="stylesheet" type="text/css" />
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <style>
+		/* .left_ticket:hover{content:url(mint_elements/left_color.png);}
+		.right_ticket:hover{content:url(mint_elements/right_color.png);} */
+		/* .btn_roulette:hover{content:url(mint_elements/btn_color.png);} */
+        .metamaskbtn:hover { border-radius: 10px;box-shadow: 0px 3px 19px 7px #aab7c1; }
+    </style>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(89208181, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/89208181" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+
+<body class="de-retro">
+    <div id="wrapper">
+        <!-- header begin -->
+        <header class="transparent header-light scroll-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="https://wormform.com/" target="_blank" style="font-family: Bungee; font-size: 2em;color:black;text-decoration: none;font-weight:400;">
+                                            Worm Form
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                            </div>
+                            
+                            <div class="de-flex-col" id="social" style="background-size: cover;margin: auto 4em;">
+
+                                <button class="metamaskbtn" style="border-radius:10px;background-color: #faf6f1;border:none;">
+                               <img src="mint_elements/Metamask-logo.png" style="max-width:180px;cursor:pointer" onclick="connectmetamask();">
+                            </button>
+                            </div>
+                            
+
+                            <!-- place for scripts -->
+
+  
+                                
+                                
+                                
+                                <script>
+                                function connectmetamask(){
+
+                                    try {
+
+                                        document.getElementById('connectwallet').click();
+
+
+                                                        } 
+                                                        
+                                                        catch (err) {
+                                                          console.log('already connected')
+
+
+                                                        }
+
+                                                    }
+                          
+  function roulettemint(){
+
+
+                            try {
+
+                                document.getElementById('roulettemint').click();
+
+
+                                    } catch (err) {
+                                        console.log(err)
+                                        document.getElementById('connectwallet').click();
+
+                                        // // let switchcolor = document.getElementById('roulettebtn')
+                                        // // switchcolor.innerHTML = '<img id="roulettebtn" class="btn_roulette" style="cursor:pointer;margin: 30px 0px 30px 0px;max-width: 320px;" src="mint_elements/btn_gray.png" onclick="roulettemint();" alt="ROULETTE">'
+
+                                        
+
+
+                                    }
+
+                            }
+                         
+             
+
+</script>
+                             
+                            <div class="de-flex-col header-col-mid">
+                                <!-- mainmenu begin -->
+                                <ul id="mainmenu">
+                                    <li>
+                                        <a href="/">Main<span></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://collection.wormform.com/" target="_blank">Collection<span></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#section-roulette">Roulette<span></span></a>
+                                    </li>                                  
+                                    <li>
+                                        <a href="https://wormform.com/#roadmap" target="_blank" rel="nofollow">Roadmap<span></span></a>
+                                    </li>
+                                </ul>
+                                <!-- mainmenu close -->
+                                <div class="menu_side_area">
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            <section id="section-hero" aria-label="section" class="pt60" style="padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <h1 style="text-align:center;margin-top:40px;">WORMFORM Round Roulette</h1>
+                    </div>
+                </div>
+            </section>
+ 
+            <div class="small-border bg-color-2" style="width: 300px;"></div>
+
+			<section id="section-roulette" aria-label="section" class="pt60" style="padding-top:20px">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6" style="text-align:center;">
+                            <h2>Rules for participation</h2>
+                            <div style="margin:auto;padding-top:5px;background:url(mint_elements/round_1.png);width:153px;height:47px;"> 
+                            	<p class="lead">Open Art</p>
+                            </div>
+                            <p class="lead" style="margin-bottom: 0px;">Check out the collection on our website.</p>
+                            
+                            <div style="margin:auto;padding-top:10px;background:url(mint_elements/round_2.png);width:157px;height:54px;"> 
+                            	<p class="lead">Fix price</p>
+                            </div>
+                            <p class="lead" style="margin-bottom: 0px;">The cost of one ticket is 0.46 ETH</p>
+                            
+                            <div style="margin:auto;padding-top:20px;background:url(mint_elements/round_3.png);width:245px;height:61px;"> 
+                            	<p class="lead">Random number</p>
+                            </div>
+                            <p class="lead" style="margin-bottom: 0px;">You receive a ticket,
+                                <br/>after SOLDOUT a random distribution of Tokens will begin.</p>
+                            
+                            
+                        </div>
+                        <div class="col-md-6" style="text-align: center;padding-left:10%">
+                        	<div class="ticketsplace">
+                        	   	<div id="leftticket"><img class="left_ticket" style="max-width:100%;cursor:pointer;margin: 20px 5px 20px 5px;" src="mint_elements/left_gray.png" alt='Tickets'></div>
+                        	   	<div id="rightticket"><img class="right_ticket" style="max-width:100%;cursor:pointer;margin: 20px 5px 20px 10px;" src="mint_elements/right_gray.png" alt='Tickets'></div>
+                        	</div>
+							<p class="lead" style="margin-bottom:0px;padding-right:25%;">* - two attempts per wallet.</p>
+							<img src="mint_elements/ticket_line.png"  style="padding-left:15%;padding-top:1%">
+                        </div>
+                    </div>
+                    
+                   
+                     
+
+                        <main style="position:absolute;display:none;top:0px;left:0px;">
+                            <img id="logo" src="/build/images/logo.png" alt="Logo" />
+                        
+                            <div id="minting-dapp"></div>
+                          </main>
+
+
+
+
+
+                    <div class="col-md-6" style="width: 100%;text-align: center;">
+                    		<br/><br/>
+                    		<div style="padding-top:25px;margin:auto;padding-left:65px;background:url(mint_elements/round_btn.png);width:416px;height:166px;">
+                    			<div id="btnswitch"><img class="btn_roulette" style="cursor:pointer;margin: 30px 0px 30px 0px;max-width: 320px;" src="mint_elements/btn_color.png" onclick="roulettemint();" alt="ROULETTE"></div>
+                    		</div>
+                            <div class="spacer-10"></div>
+							<br/>
+                            <h2 style="color:#7a7a7a">Welcome to the WormForm Family</h2>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- content close -->
+        <a href="#" id="back-to-top"></a>
+        <!-- footer begin -->
+        <footer style="padding-top:20px;">
+            <div class="container">
+                <div class="row" style="justify-content: space-between; align-items: center;">
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-1">
+                        <div class="widget" style="padding-bottom:0px;">
+                            <a href="https://art2set.com" style="display: flex; justify-content: center;">
+                            <img class="logo-2set" alt="logo-2set" src="images/Art2Set.png" style="width: 250px;height:104px;border-radius: 50px;">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-1">
+                        <div class="widget">
+                            <h5>Official links</h5>
+                            <ul id="social_btm" style="align-items:center;gap:0.5em;">
+                                <li><a href="https://discord.gg/HV3R6tpuEX" target="_blank"><img alt="" src="images/discord.png" style="width:2em;height:2em;" /></a></li>
+                                <li><a href="https://twitter.com/wormform_tw" target="_blank"><img alt="" src="images/twitter.png" style="width:2em;height:2em;" /></a></li>
+                                <li><a href="https://www.instagram.com/worm_form/" target="_blank"><img alt="" src="images/instagram.png" style="width:2em;height:2em;" /></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCcFYHk7lEWkaKbGVmLxBmqw" target="_blank"><img alt="" src="images/youtube.png" style="width:2em;height:2em;background:#fff;border-radius:50%;" /></a></li>
+                                <li><a href="https://opensea.io/collection/wormform" target="_blank"><img alt="" src="images/opensea.svg" style="width:2em;height:2em;" /></a></li>
+                                <li><a href="@art2set" target="_blank"><img alt="" src="images/telegram.png" style="width:2em;height:2em;" /></a></li>
+                                <li><a href="wormform.prj@gmail.com" target="_blank"><img alt="" src="images/gmail.png" style="width:2em;height:2em;" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter" style="margin-top:10px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex">
+                                <div class="de-flex-col">
+                                        Worm Form&nbsp;&nbsp;<span class="copy">&copy; Copyright 2022 - Art2Set</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/jquery.lazy.plugins.min.js"></script>
+    <script src="js/designesia.js"></script>
+    </div>
+</body>
+
+</html>
